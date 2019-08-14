@@ -1,8 +1,12 @@
 def find_element_index(array, value_to_find)
-  length = array.length
+  control = 0
   
-  length.times { |index|
-    puts array|index|
+  while control < array.length {
+    if array[control] === value_to_find {
+      return value_to_find.index[control]
+    }
+    else return nil
+      control += 1
   }
 end
 
