@@ -13,6 +13,7 @@ end
 
 def find_max_value(array)
   control = 0
+  array.
   
   while control < array.length do
     
