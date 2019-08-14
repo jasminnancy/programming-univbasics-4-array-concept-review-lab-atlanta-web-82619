@@ -1,8 +1,8 @@
 def find_element_index(array, value_to_find)
   length = array.length
-  control = 0
+  count = 0
   
-  while control < length do
+  while count < length do
     
     
   end  
