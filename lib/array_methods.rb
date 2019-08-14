@@ -1,13 +1,5 @@
 def find_element_index(array, value_to_find)
-  control = 0
   
-  while control < array.length {
-    if array[control] === value_to_find {
-      return value_to_find.index[control]
-    }
-    else return nil
-      control += 1
-  }
 end
 
 def find_max_value(array)
