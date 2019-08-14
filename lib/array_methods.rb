@@ -2,7 +2,8 @@ def find_element_index(array, value_to_find)
   control = 0
   
   while control < array.length do
-    if 
+    if array[control] == value_to_find
+      
     
   end  
 end
