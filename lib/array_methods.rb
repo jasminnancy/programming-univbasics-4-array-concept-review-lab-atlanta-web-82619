@@ -2,10 +2,11 @@ def find_element_index(array, value_to_find)
   control = 0
   
   while control < array.length {
-    
-    control += 1
+    if array[control] === value_to_find {
+      return value_to_find.index[control]
+    }
+    else control += 1
   }
-  return 
 end
 
 def find_max_value(array)
